@@ -10,3 +10,6 @@ def maopao(lista):
 list = [1,5,7,2,6,1,5,3]
 list = maopao(list)
 print(list)
+
+if 1:
+    print(1)
