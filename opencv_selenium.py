@@ -136,7 +136,8 @@ def findMoveTrajectory():
     steps = moveTrack(xoffset)  # 生成运动轨迹
     return steps
 
-
+def a():
+    print("nima")
 if __name__ == '__main__':
     browser = webdriver.Chrome(r'C:\Users\Administrator\Desktop\chromedriver.exe') # 打开浏览器
     browser.get('http://www.geetest.com/Register')  # 输入网址
