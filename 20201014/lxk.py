@@ -7,6 +7,5 @@ def maopao(lista):
             if lista[j]>lista[i]:
                 lista[j],lista[i] = lista[i],lista[j]
                 
-list = [1,5,7,2,6,1,5,3]
-list = maopao(list)
-print(list)
+a = maopao([1,3,2,4,5,6,2,1])
+print(a)
